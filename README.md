@@ -70,3 +70,40 @@ Feel free to explore the code and reach out if you have any questions!
 
 ---
 
+📚 Week 3 – Spring Framework
+This week covers the basics of setting up and using the Spring Framework in a Java application using Maven.
+
+✅ Exercise 1: Configuring a Basic Spring Application
+Created a Maven project: LibraryManagement
+
+Added Spring Core dependency in pom.xml
+
+Configured applicationContext.xml to define BookService and BookRepository beans
+
+Created Java classes in appropriate packages:
+
+com.library.service.BookService
+
+com.library.repository.BookRepository
+
+Verified output using a main class: "Spring in action"
+
+📎 Output: Output/1_ConfiguringSpring_Output.png
+
+✅ Exercise 2: Implementing Dependency Injection
+Updated applicationContext.xml to inject BookRepository into BookService using setter-based DI
+
+Modified BookService class to include a setter method
+
+Successfully tested bean wiring and execution
+
+📎 Output: Output/2_DependencyInjection_Output.png
+
+✅ Exercise 4: Creating and Configuring Maven Project
+Configured Maven Compiler Plugin for Java 1.8
+
+Added Spring dependencies: spring-context, spring-aop, spring-webmvc
+
+Verified successful Maven build
+
+📎 Output: Output/4_MavenProjectSetup_Output.png

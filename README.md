@@ -107,3 +107,43 @@ Added Spring dependencies: spring-context, spring-aop, spring-webmvc
 Verified successful Maven build
 
 📎 Output: Output/4_MavenProjectSetup_Output.png
+
+
+📚 Week 4 - Spring Boot XML Configuration, REST APIs & JWT Authentication
+In Week 4 of the Cognizant Digital Nurture Program, we explored key Spring Boot concepts with hands-on exercises covering the following areas:
+
+✅ Topics Covered:
+Spring Boot Project Setup using Maven and DevTools
+
+XML-based Bean Configuration (country.xml)
+
+Understanding and demonstrating Singleton vs Prototype bean scopes
+
+Spring REST Controllers
+
+Creating REST APIs using @RestController and @GetMapping
+
+Loading beans from XML configuration
+
+Handling path variables and exceptions (@PathVariable, @ExceptionHandler)
+
+Custom Exception Handling
+
+CountryNotFoundException for invalid country codes
+
+JWT (JSON Web Token) Authentication
+
+/authenticate endpoint secured with Basic Auth
+
+In-memory user setup with Spring Security (user/pwd)
+
+JWT token generation using jjwt library
+
+📌 Endpoints Implemented:
+GET /country – Returns country details for India
+
+GET /countries/{code} – Returns country details by code
+
+GET /authenticate – Authenticates user and returns JWT token
+
+This week provided a foundation for combining traditional Spring features with modern practices such as RESTful services and stateless JWT-based security.
